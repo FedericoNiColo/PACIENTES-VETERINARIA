@@ -25,10 +25,10 @@ const Paciente = ({paciente, setPaciente, eliminarPaciente}) => {
             </p>
 
             <div className="flex gap-3 mt-5">
-                <button className="py-2 px-10 bg-indigo-600 hover:bg-indigo-700 text-white font bold uppercase rounded-lg w-2/3"
+                <button className="py-2 px-6 bg-indigo-600 hover:bg-indigo-700 text-white font bold uppercase rounded-lg  md:w-2/3"
                  onClick= {() => setPaciente(paciente)} > Editar</button>
 
-                <button className="py-2 px-10 bg-red-600 hover:bg-red-700 text-white font bold uppercase rounded-lg w-1/3"
+                <button className="py-2 px-6 bg-red-600 hover:bg-red-700 text-white font bold uppercase rounded-lg  md:w-1/3"
                 onClick={()=>eliminarPaciente(id)}>Eliminar</button>
 
             </div>
